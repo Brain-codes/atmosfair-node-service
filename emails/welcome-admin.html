@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" style="margin: 0; padding: 0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Welcome to Atmosfair — Admin Access</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      font-family: 'Clash Display', Arial, sans-serif;
+      background: #f7f9fc;
+    "
+  >
+    <table
+      role="presentation"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+      style="margin: 0; padding: 40px 0; background: #f7f9fc"
+    >
+      <tr>
+        <td align="center">
+          <!--[if gte mso 9]>
+        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:auto;">
+          <v:fill type="frame" src="https://atmosfair.com/assets/email-bg-light.jpg" color="#F7F9FC"/>
+          <v:textbox inset="0,0,0,0">
+        <![endif]-->
+          <table
+            role="presentation"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            width="600"
+            background="https://atmosfair.com/assets/email-bg-light.jpg"
+            style="
+              max-width: 600px;
+              border-radius: 14px;
+              overflow: hidden;
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <tr>
+              <td
+                style="background-color: rgba(255, 255, 255, 0.95); padding: 0"
+              >
+                <table
+                  role="presentation"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%"
+                >
+                  <tr>
+                    <td align="center" style="padding: 30px 20px 15px">
+                      <img
+                        src="https://atmosfair.com/assets/logo.png"
+                        alt="Atmosfair Logo"
+                        width="180"
+                        style="display: block"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <img
+                        src="https://atmosfair.com/assets/hero-bg-light.png"
+                        alt="Hero Banner"
+                        width="600"
+                        style="width: 100%; display: block; border-radius: 8px"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        padding: 30px 30px 10px;
+                        font-family: 'Clash Display', Arial, sans-serif;
+                        font-size: 28px;
+                        font-weight: 700;
+                        text-align: left;
+                        color: #051b52;
+                      "
+                    >
+                      Hi {{user_name}}, welcome to Atmosfair!
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        color: #333;
+                        font-size: 16px;
+                        line-height: 1.6;
+                        padding: 0 30px 20px;
+                        text-align: left;
+                      "
+                    >
+                      An account has been created for
+                      <b>{{organization_name}}</b>.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 0 30px 20px">
+                      <table
+                        role="presentation"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        width="100%"
+                        style="
+                          background: #f7f9fc;
+                          border: 1px solid #051b52;
+                          border-radius: 8px;
+                        "
+                      >
+                        <tr>
+                          <td
+                            style="
+                              padding: 16px 12px;
+                              font-size: 16px;
+                              color: #051b52;
+                              font-weight: 600;
+                              width: 40%;
+                            "
+                          >
+                            Email:
+                          </td>
+                          <td
+                            style="
+                              padding: 16px 12px;
+                              font-size: 16px;
+                              color: #051b52;
+                              width: 60%;
+                            "
+                          >
+                            {{email}}
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            style="
+                              padding: 16px 12px;
+                              font-size: 16px;
+                              color: #051b52;
+                              font-weight: 600;
+                              width: 40%;
+                            "
+                          >
+                            Temporary Password:
+                          </td>
+                          <td
+                            style="
+                              padding: 16px 12px;
+                              font-size: 16px;
+                              color: #051b52;
+                              width: 60%;
+                            "
+                          >
+                            {{password}}
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="padding: 0 30px 24px">
+                      <a
+                        href="{{LOGIN_URL}}"
+                        style="
+                          display: inline-block;
+                          padding: 14px 36px;
+                          background: #051b52;
+                          color: #fff;
+                          text-decoration: none;
+                          border-radius: 8px;
+                          font-size: 16px;
+                          font-weight: 600;
+                          box-shadow: 0 4px 15px rgba(5, 27, 82, 0.12);
+                        "
+                      >
+                        Sign in to Atmosfair
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        color: #333;
+                        font-size: 15px;
+                        line-height: 1.5;
+                        padding: 0 30px 16px;
+                        text-align: left;
+                      "
+                    >
+                      For your security, please change your password after first
+                      login.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="padding: 0 30px">
+                      <hr
+                        style="
+                          border: none;
+                          border-top: 1px solid #e0e0e0;
+                          margin: 0;
+                        "
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="padding: 30px 20px">
+                      <a href="https://facebook.com" style="margin: 0 8px">
+                        <img
+                          src="https://atmosfair.com/assets/social/facebook.svg"
+                          alt="Facebook"
+                          width="28"
+                          style="display: inline-block"
+                        />
+                      </a>
+                      <a href="https://twitter.com" style="margin: 0 8px">
+                        <img
+                          src="https://atmosfair.com/assets/social/twitter.svg"
+                          alt="Twitter"
+                          width="28"
+                          style="display: inline-block"
+                        />
+                      </a>
+                      <a href="https://instagram.com" style="margin: 0 8px">
+                        <img
+                          src="https://atmosfair.com/assets/social/instagram.svg"
+                          alt="Instagram"
+                          width="28"
+                          style="display: inline-block"
+                        />
+                      </a>
+                      <a href="https://linkedin.com" style="margin: 0 8px">
+                        <img
+                          src="https://atmosfair.com/assets/social/linkedin.svg"
+                          alt="LinkedIn"
+                          width="28"
+                          style="display: inline-block"
+                        />
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        color: #888;
+                        font-size: 13px;
+                        text-align: center;
+                        padding: 0 20px 30px;
+                      "
+                    >
+                      © 2025 Atmosfair. All rights reserved.<br />
+                      You’re receiving this email because you were added as an
+                      admin for your organization.
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if gte mso 9]>
+          </v:textbox>
+        </v:rect>
+        <![endif]-->
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
