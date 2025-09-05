@@ -33,7 +33,10 @@ function renderWelcomeAdminHtml({
   html = html.replace(/\{\{user_name\}\}/g, user_name);
   html = html.replace(/\{\{organization_name\}\}/g, organization_name);
   html = html.replace(/\{\{password\}\}/g, password);
-  html = html.replace(/\{\{LOGIN_URL\}\}/g, "https://atmosfair.com/login"); // Replace with actual login URL
+  html = html.replace(
+    /\{\{LOGIN_URL\}\}/g,
+    "https://stove-transactions.vercel.app/login"
+  ); // Replace with actual login URL
   return html;
 }
 
